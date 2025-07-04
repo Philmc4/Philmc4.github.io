@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  section {
+    max-width: 616px;
+  }
+  img {
+    height: 300px;
+    width: 536px;
+  }
+}
+
+@media (max-width: 650px) {
+  section {
+    max-width: 375px;
+    padding: 0;
+    border-radius: 0;
+  }
+  img {
+    height: 171px;
+    width: 375px;
+    border-radius: 0;
+  }
+  .content {
+    padding: 0 32px 40px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}

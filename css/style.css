@@ -1,0 +1,171 @@
+/* Colours 
+
+- White: #ffffff
+
+- Stone 100: #f3e5d7
+- Stone 150: #e3ddd7
+- Stone 600: #5f564d
+- Stone 900: #312e2c
+
+- Brown 800: 
+
+- Rose 800: #7a284e
+- Rose 50: #fff7fb
+
+*/
+
+/* Fonts 
+
+Young Serif
+Outfit
+
+*/
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0px 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e5d7;
+  margin: 128px 0;
+}
+
+.entire {
+  border-radius: 12px;
+}
+
+section {
+  max-width: 736px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+img {
+  height: 300px;
+  width: 656px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+/* .img-cont {
+  border-radius: 12px;
+} */
+
+.img {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #f3e5d7;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  font-family: Young Serif;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #312e2c;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+
+h2 {
+  font-family: Young Serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color: #854632;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-family: Outfit;
+  font-size: 1.25rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #7a284e;
+  margin-bottom: 1rem;
+}
+
+p,
+li {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #5f564d;
+  margin-top: 8px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+.prep-section {
+  margin: 32px 0;
+  padding: 24px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+}
+
+.bullet {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid #f3e5d7;
+  padding: 8px 32px;
+}
+
+.td-no-border {
+  border-bottom: none;
+}
+
+.prepration-time {
+  padding-left: 24px;
+}
+
+.prep-section ::marker {
+  color: #7a284e;
+}
+
+.ingredients {
+  padding: 0 24px 32px;
+  border-bottom: 1px solid #f3e5d7;
+}
+ol {
+  padding-left: 20px;
+}
+
+.ingredients ::marker {
+  color: #854632;
+}
